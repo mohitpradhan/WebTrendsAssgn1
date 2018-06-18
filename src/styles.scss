@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+.navigation {
+	list-style:none;
+	cursor:pointer;
+	
+	.first {
+		display:inline;
+		float:left;
+		padding-right:30px;
+		
+		.second {
+			display:none;
+			padding:0;
+			list-style:none;
+			
+			li:hover ul{
+				display:block;
+			}
+		}
+		ul li ul{
+			display:none;
+		}
+	}
+	
+	.first:hover .second{
+		display:block
+	}
+}
