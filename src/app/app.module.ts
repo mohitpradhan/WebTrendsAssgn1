@@ -17,7 +17,7 @@ import { GetUserService } from './get-user.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [GetUserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
