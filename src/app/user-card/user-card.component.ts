@@ -11,9 +11,12 @@ export class UserCardComponent implements OnInit {
 	
   }
   
- 
+  name:string = '';
+  description:string = '';
   
   ngOnInit(){
-	
+	//console.log(this.dataService.cars);
+	this.name = this.dataService.getName();
+	this.description = this.dataService.getDesc();
   }
 }
