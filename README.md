@@ -1,4 +1,5 @@
-# RobbyLab4Sass
+# Rajanveer Brar (N01202430)
+# Mohit Pradhan (N01247533)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 
